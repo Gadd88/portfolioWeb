@@ -37,37 +37,37 @@ export const projectsData = [
       "https://marvel-app-lenios.netlify.app/",
   },
   {
-    title: "Retro to-do",
+    title: "",
     description:
-      "A retro-themed React to-do app. A fun and functional way to manage your tasks, you can add, delete and mark tasks as completed. The app features a sleek and nostalgic design, making it a pleasure to use. ",
+      "",
     icons: [
       <SiCss3 key={crypto.randomUUID()} />,
       <SiReact key={crypto.randomUUID()} />,
       <SiVite key={crypto.randomUUID()} />,
       <SiFramer key={crypto.randomUUID()} />,
     ],
-    imagePath: RetroToDoPreview,
+    imagePath: '',
     repository: "https://github.com/Gadd88/React-Retro-To-Do-App",
     deploy: "https://retrotodoapp.vercel.app/",
   },
   {
-    title: "SpookyShop",
+    title: "",
     description:
-      "A pure CSS/JavaScript ecommerce, halloween themed. It utilizes JavaScript for its dynamic features such as register, login, adding a product to a cart among others. The platform is designed to be user-friendly and easy to navigate, with a clean and modern aesthetic.",
+      "",
     icons: [
       <SiHtml5 key={crypto.randomUUID()} />,
       <SiCss3 key={crypto.randomUUID()} />,
       <SiJavascript key={crypto.randomUUID()} />,
     ],
-    imagePath: SpookyShopPreview,
+    imagePath: '',
     repository: "https://github.com/Gadd88/SpookyShop-Ecommerce",
     deploy: "https://spookyshop.vercel.app/",
   },
 
   {
-    title: "Portfolio",
+    title: "",
     description:
-      "Built with React, Vite and TypeScript, this portfolio showcases my skills and projects as a front-end developer. I've also used React Router V6 to make it a SPA and framer motion for its animations.",
+      "",
     icons: [
       <SiCss3 key={crypto.randomUUID()} />,
       <SiTypescript key={crypto.randomUUID()} />,
@@ -75,7 +75,7 @@ export const projectsData = [
       <SiVite key={crypto.randomUUID()} />,
       <SiFramer key={crypto.randomUUID()} />,
     ],
-    imagePath: PortfolioPrwview,
+    imagePath: '',
     repository: "https://github.com/Gadd88/MyPortfolio",
     deploy: "https://Gadd88.vercel.app/",
   },
