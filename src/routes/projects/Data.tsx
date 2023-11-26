@@ -1,42 +1,40 @@
-import { SiCss3, SiFramer, SiGooglechrome, SiHtml5, SiJavascript, SiReact, SiTypescript, SiVite } from "react-icons/si";
-import DolarLive from "../../assets/previews/DolarLive.png";
-import FullioStudioPreview from "../../assets/previews/FullioStudio.png";
+import { SiCss3, SiFramer, SiGooglechrome, SiHtml5, SiJavascript, SiNextui, SiReact, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
+import marvelApp from "../../assets/previews/marvelApp.webp";
+import menuNextPreview from "../../assets/previews/menuNextPreview.webp";
 import PortfolioPrwview from "../../assets/previews/PortfolioPreview.png";
 import RetroToDoPreview from "../../assets/previews/RetroToDo.png";
 import SpookyShopPreview from "../../assets/previews/SpookyShop.png";
 
 export const projectsData = [
   {
-    title: "Fullio Studio",
+    title: "Tu Menú Web",
     description:
-      "Freelance project I've made for a fashion designer. The project was built using React, TypeScript and framer motion to make the transitions as smooth as possible. The main objective was to accomplish a clean and minimalistic style.",
+      "Proyecto freelance desarrollado en reactjs utilizando la libreria NextUI para darle una mejor apariencia visual. Gracias a una libreria que funciona como parseador de datos, se puede utilizar una simple hoja de Google Sheet para agregar, modificiar o eliminar algun producto de la web y tenerla actualizada practicamente al instante.",
     icons: [
       <SiCss3 key={crypto.randomUUID()} />,
       <SiReact key={crypto.randomUUID()} />,
       <SiVite key={crypto.randomUUID()} />,
-      <SiTypescript key={crypto.randomUUID()} />,
-      <SiFramer key={crypto.randomUUID()} />,
+      <SiNextui key={crypto.randomUUID()} />,
+      <SiTailwindcss key={crypto.randomUUID()} />,
     ],
-    imagePath: FullioStudioPreview,
-    repository: "https://github.com/LucaCuello/FullioStudioPortfolio",
-    deploy: "https://fulliostudio.com/",
+    imagePath: menuNextPreview,
+    repository: "https://github.com/Gadd88/menuOnline",
+    deploy: "https://tunegocionext.netlify.app/",
   },
   {
-    title: "DolarLive",
+    title: "MarvelApp",
     description:
-      "Chrome extension designed specifically for users in Argentina. Developed using React, TypeScript, and Vite, this extension provides real-time updates on the prices of the US dollar and Euro, ensuring you stay up to date with the ever-changing currency exchange rates.",
+      "Proyecto final del bootcamp frontend de Leniolabs. Webapp que se conecta a la api de Marvel para obtener informacion sobre el personaje buscado, cuenta con una funcion de favoritos para ir guardando personajes. Creada con reactJs",
     icons: [
       <SiCss3 key={crypto.randomUUID()} />,
       <SiReact key={crypto.randomUUID()} />,
       <SiVite key={crypto.randomUUID()} />,
-      <SiTypescript key={crypto.randomUUID()} />,
-      <SiGooglechrome key={crypto.randomUUID()} />,
       <SiFramer key={crypto.randomUUID()} />,
     ],
-    imagePath: DolarLive,
-    repository: "https://github.com/LucaCuello/DolarLive",
+    imagePath: marvelApp,
+    repository: "https://github.com/Gadd88/lenios-bootcamp/tree/master/practicas/marvel-app",
     deploy:
-      "https://chrome.google.com/webstore/detail/dolarlive-cotizaci%C3%B3n-de-d/bkmobaaidlobcdldaegkbhhimicbdpcg?hl=es",
+      "https://marvel-app-lenios.netlify.app/",
   },
   {
     title: "Retro to-do",
@@ -49,7 +47,7 @@ export const projectsData = [
       <SiFramer key={crypto.randomUUID()} />,
     ],
     imagePath: RetroToDoPreview,
-    repository: "https://github.com/LucaCuello/React-Retro-To-Do-App",
+    repository: "https://github.com/Gadd88/React-Retro-To-Do-App",
     deploy: "https://retrotodoapp.vercel.app/",
   },
   {
@@ -62,7 +60,7 @@ export const projectsData = [
       <SiJavascript key={crypto.randomUUID()} />,
     ],
     imagePath: SpookyShopPreview,
-    repository: "https://github.com/LucaCuello/SpookyShop-Ecommerce",
+    repository: "https://github.com/Gadd88/SpookyShop-Ecommerce",
     deploy: "https://spookyshop.vercel.app/",
   },
 
@@ -78,7 +76,7 @@ export const projectsData = [
       <SiFramer key={crypto.randomUUID()} />,
     ],
     imagePath: PortfolioPrwview,
-    repository: "https://github.com/LucaCuello/MyPortfolio",
-    deploy: "https://lucacuello.vercel.app/",
+    repository: "https://github.com/Gadd88/MyPortfolio",
+    deploy: "https://Gadd88.vercel.app/",
   },
 ];
