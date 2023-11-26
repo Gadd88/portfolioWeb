@@ -1,0 +1,32 @@
+:root {
+  /* Dark Palette */
+  --dark-main: #121212;
+  /* --dark-main2: #1f1d2e;
+  --ligth-main: #fff;
+  --ligth-main: #ebbcba;
+  --clear-ligth: #ebbcba9f;
+  --clear-white: #eeeeee;
+  --clear-ligth: #FFA69E;
+  --accent-ligth: #7bb8d1;
+  --accent: #31748f;
+  --accent-dark: #28485f;
+  --ligth-main: #FAF3DD;
+  --melon: #FFA69E;
+  --eggshell: #FAF3DD;
+  --celeste: #B8f2e6;
+  --accent-ligth: #aed9e0; */
+  --light-main: #f4f2f3;
+  --clear-white: #fff;
+  --clear-light: #f9b9f2;
+  --clear-dark: #bca0bc;
+  --accent: #2274a5;
+  --accent-dark: #83a0a0;
+  /* --accent-dark: #30aaaa; */
+  --accent-light: #10ddf0;
+  /* Typo */
+  --main-heading: 40px;
+  --sub-heading: 25px;
+  --medium: 20px;
+  --normal: 16px;
+  --small: 14px;
+}

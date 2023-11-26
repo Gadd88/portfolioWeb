@@ -1,0 +1,307 @@
+@media screen and (max-width: 970px) {
+  /* About me responsive */
+
+  #root {
+    gap: 25px !important;
+  }
+
+  .aboutme-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .picture-container {
+    transform: none !important;
+    margin-bottom: 10px;
+    height: 180px;
+    width: 180px;
+    order: -1;
+  }
+
+  .picture-container img {
+    width: 140px;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutme-body {
+    text-align: left;
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+  /* Education responsive */
+
+  .education-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .study-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .study-card p {
+    width: 80%;
+    word-wrap: break-word;
+  }
+
+  /* Footer responsive */
+
+  .contact-me {
+    gap: 20px;
+  }
+
+  .contact-me {
+    text-align: center;
+  }
+
+  /* Skills responsive */
+
+  .skills-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .skills-card-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .programming-languages,
+  .front-end,
+  .back-end,
+  .other-tools {
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .languages,
+  .front-end-frameworks,
+  .back-end-frameworks,
+  .tools {
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 25px;
+  }
+
+  .skills-card {
+    padding: 10px;
+  }
+
+  /* Projects responsive */
+
+  .projects-container {
+    align-items: center;
+  }
+
+  .project-description p {
+    width: 90%;
+    word-wrap: break-word;
+  }
+
+  /* Not found */
+  .not-found {
+    text-align: center;
+  }
+  .not-found p {
+    text-align: center;
+  }
+  .not-found .heading {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header{
+    margin-bottom: 0;
+  }
+  /* Hamburguer menu */
+  .desktop-menu {
+    display: none;
+  }
+
+  .hamburguer-container,
+  .hamburguer-menu {
+    display: flex;
+  }
+
+  /* Education responsive */
+
+  .cards-container {
+    overflow: auto;
+    padding: 0;
+  }
+
+  .education-container {
+    height: auto;
+  }
+
+  /* Skills responsive */
+
+  .skills-card {
+    box-shadow: none !important;
+  }
+
+  .languages,
+  .front-end-frameworks,
+  .back-end-frameworks,
+  .tools {
+    column-gap: 10px;
+  }
+
+  /* Education responsive */
+
+  .projects-container {
+    overflow: auto;
+    padding: 0;
+    height: auto;
+  }
+
+  .certificate-container {
+    width: 95%;
+    padding: 55px 0px 15px 0;
+  }
+
+  .certificate-container img {
+    object-fit: contain;
+    width: 95%;
+    height: 100%;
+  }
+
+  /* About me */
+  .aboutme-container {
+    align-items: flex-start;
+  }
+  .about-me {
+    align-items: flex-start;
+  }
+  .aboutme-body {
+    text-align: left;
+  }
+  .buttons-container {
+    align-items: unset;
+  }
+  .picture-container {
+    transform: none !important;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
+    order: -1;
+  }
+
+  /* Education */
+  .education-container {
+    align-items: flex-start;
+  }
+  .study-card {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  /* Skills */
+
+  .skills-container,
+  .skills-card-container {
+    align-items: flex-start;
+  }
+
+  .languages,
+  .front-end-frameworks,
+  .back-end-frameworks,
+  .tools {
+    justify-content: flex-start;
+  }
+
+  .programming-languages,
+  .front-end,
+  .back-end,
+  .other-tools {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  /* Projects */
+
+  .projects-container {
+    align-items: flex-start;
+  }
+
+  .project {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .project-description {
+    align-items: flex-start;
+  }
+
+  .project-description p {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 490px) {
+  #root {
+    padding: 35px 0 !important;
+  }
+
+  /* Footer */
+  .contact-me {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+  }
+
+  .update-info {
+    align-self: center;
+    font-size: 12px;
+  }
+
+  .project-preview {
+    max-width: unset;
+    width: 100%;
+    height: 160px;
+  }
+
+  .project-description {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .project-description p {
+    width: 100%;
+  }
+  .profile-buttons-container{
+    margin: 20px auto;
+  }
+  .buttons-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-buttons-container .buttons-container button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: var(--small) !important;
+  }
+
+  .study-card p {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,25 @@
+.aboutme-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.profile-buttons-container{
+  display: flex;
+  max-width: 100%;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px){
+  .profile-buttons-container{
+    flex-direction: row;
+  }
+  .buttons-container{
+    max-width: 35%;
+  }
+}

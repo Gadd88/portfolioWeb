@@ -1,0 +1,34 @@
+.aboutme-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--light-main);
+  font-size: var(--normal);
+  text-align: left;
+  line-height: 25px;
+  word-spacing: 6px;
+  font-weight: 400;
+  width: 60ch;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+
+.heading {
+  color: var(--light-main);
+  font-size: var(--main-heading);
+  font-weight: 700;
+}
+
+.subheading {
+  color: var(--accent-light);
+  font-size: var(--sub-heading);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
