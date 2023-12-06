@@ -80,12 +80,12 @@ export const Button = ({ content, direction, icon, document }: ButtonProps) => {
         </CustomDialogTitle>
         <DialogContent style={{ color: "var(--clear-white)" }}>
           <CustomDialogContentText id="alert-dialog-description">
-            A new browser tab with my personal resume (.PDF) is about to open. Do you
-            want to procede?
+            Se abrirá una nueva pestaña con mi CV (.PDF)
+            Continuas?
           </CustomDialogContentText>
         </DialogContent>
         <DialogActions>
-          <CustomButtonMui onClick={handleClose}>No, thanks</CustomButtonMui>
+          <CustomButtonMui onClick={handleClose}>Nop, ya vi lo que necesito</CustomButtonMui>
           <CustomButtonMui
             onClick={() => {
               handleClose();
@@ -93,7 +93,7 @@ export const Button = ({ content, direction, icon, document }: ButtonProps) => {
             }}
             autoFocus
           >
-            Yes!
+            OK!
           </CustomButtonMui>
         </DialogActions>
       </Dialog>{" "}

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import avatar from "../../assets/avatar/avatartransparent.png";
 import profilePic from "../../assets/avatar/profilePic.jpg"
 import "./ProfilePicture.css";
 

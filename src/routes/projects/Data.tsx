@@ -1,4 +1,4 @@
-import { SiCss3, SiFramer, SiGooglechrome, SiHtml5, SiJavascript, SiNextui, SiReact, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
+import { SiCss3, SiFirebase, SiFramer, SiGooglechrome, SiHtml5, SiJavascript, SiNextui, SiReact, SiSwiper, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
 import marvelApp from "../../assets/previews/marvelApp.webp";
 import menuNextPreview from "../../assets/previews/menuNextPreview.webp";
 import todoapp from "../../assets/previews/todoapp.png";
@@ -51,17 +51,19 @@ export const projectsData = [
     deploy: "https://nova-todo-ts.netlify.app/",
   },
   {
-    title: "",
+    title: "Novaflix",
     description:
-      "",
+      "Proyecto grupal creado como integrador para la especialización en ReactJS del programa Codo a Codo 4.0. Utilizamos la api de TheMovieDB para obtener los datos e imagenes de las peliculas, ademas de herramientas como SwiperJS para carruseles y Firebase para autenticación. \nuser: test@hotmail.com \npass: 123123",
     icons: [
-      <SiHtml5 key={crypto.randomUUID()} />,
+      <SiReact key={crypto.randomUUID()} />,
+      <SiVite key={crypto.randomUUID()} />,
       <SiCss3 key={crypto.randomUUID()} />,
-      <SiJavascript key={crypto.randomUUID()} />,
+      <SiFirebase key={crypto.randomUUID()} />,
+      <SiSwiper key={crypto.randomUUID()} />,
     ],
     imagePath: '',
-    repository: "https://github.com/Gadd88/SpookyShop-Ecommerce",
-    deploy: "https://spookyshop.vercel.app/",
+    repository: "https://github.com/Gadd88/novaflix",
+    deploy: "https://qa-pelis-seven.vercel.app/",
   },
 
   {

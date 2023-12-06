@@ -1,8 +1,4 @@
 import { motion } from "framer-motion";
-import { AiOutlineMail } from "react-icons/ai";
-import { HiOutlineDocumentText } from "react-icons/hi";
-import CvEn from "../../assets/curriculum/CVFrontEN.pdf";
-import { Button } from "../../components/button/Button";
 import "./AboutMe.css";
 
 export const AboutMe = () => {

@@ -4,7 +4,7 @@ import "./AboutMeContainer.css";
 import { Button } from "../button/Button";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { AiOutlineMail } from "react-icons/ai";
-import CvEn from '../../assets/curriculum/CVFrontEN.pdf'
+import CVDev from '../../assets/curriculum/CVDev.pdf'
 
 type AboutMeProps = {
   body: React.ReactNode;
@@ -25,7 +25,7 @@ export const AboutMeContainer = ({ body, profilePicture }: AboutMeProps) => {
         <div className="buttons-container">
           <Button
             content="Curriculum"
-            direction={CvEn}
+            direction={CVDev}
             icon={<HiOutlineDocumentText />}
             document={true}
           ></Button>
