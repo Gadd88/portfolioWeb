@@ -2,8 +2,8 @@ import { SiCss3, SiFirebase, SiFramer, SiGooglechrome, SiHtml5, SiJavascript, Si
 import marvelApp from "../../assets/previews/marvelApp.webp";
 import menuNextPreview from "../../assets/previews/menuNextPreview.webp";
 import todoapp from "../../assets/previews/todoapp.png";
-import PortfolioPrwview from "../../assets/previews/PortfolioPreview.png";
-import SpookyShopPreview from "../../assets/previews/SpookyShop.png";
+import novaflix from "../../assets/previews/novaflix.png";
+
 
 export const projectsData = [
   {
@@ -61,7 +61,7 @@ export const projectsData = [
       <SiFirebase key={crypto.randomUUID()} />,
       <SiSwiper key={crypto.randomUUID()} />,
     ],
-    imagePath: '',
+    imagePath: novaflix,
     repository: "https://github.com/Gadd88/novaflix",
     deploy: "https://qa-pelis-seven.vercel.app/",
   },
