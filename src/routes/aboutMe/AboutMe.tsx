@@ -31,16 +31,16 @@ export const AboutMe = () => {
       </div> */}
       <main className="aboutme-body">
         <p>
-          ¡Hola! Soy un desarrollador web especializado en la creación de experiencias digitales cautivadoras. Me enfoque en el diseño y desarrollo frontend.
+          ¡Hola! Soy un desarrollador web enfocado en la creación de interfaces cautivadoras, siempre orientado a simplificar y facilitar la experiencia del usuario.
           {/* Hello and welcome! I’m a passionate web developer with a strong focus on frontend design! Always trying to  
           craft visually delightful and easy-to-use interfaces. */}
         </p>
         <p>
-          A lo largo de mi trayectoria, he participado en diversos proyectos que van desde prácticas hasta cursos especializados, donde cada línea de código cuenta una historia única de innovación y dedicación. Mi objetivo es proporcionar soluciones digitales efectivas que no solo cumplan con los requisitos, sino que también superen las expectativas.
+          En lo que va de mi trayectoria, he participado en diversos proyectos que van desde prácticas hasta cursos especializados. Mi objetivo es proporcionar soluciones efectivas, que no solo cumplan con los requisitos, sino que también superen las expectativas.
           {/* Throughout my journey, I've been involved in various projects ranging from practices to specialized courses, where each line of code tells a unique story of innovation and dedication. My goal is to deliver effective digital solutions that not only meet requirements but also exceed expectations. */}
         </p>
         <p>
-          Te invito a explorar mi portfolio, cada proyecto desarrollado representa un paso más en mi constante búsqueda de nuevo desafios y experiencia!
+          Te invito a explorar mi portafolio, cada proyecto desarrollado representa un paso más en mi constante búsqueda de nuevos desafios y experiencia!
 {/*           Take a look around, explore my projects, each one represent a step forward in my constant persuit of new challenges! */}
         </p>
       </main>

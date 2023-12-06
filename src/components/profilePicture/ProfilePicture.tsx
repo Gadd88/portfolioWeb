@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import avatar from "../../assets/avatar/avatartransparent.png";
+import profilePic from "../../assets/avatar/profilePic.jpg"
 import "./ProfilePicture.css";
 
 export const ProfilePicture = () => {
@@ -10,7 +11,7 @@ export const ProfilePicture = () => {
       transition={{ duration: 0.4 }}
       className="picture-container"
     >
-      <img src={avatar} alt="avatar" draggable="false"></img>
+      <img src={profilePic} alt="avatar" draggable="false"></img>
     </motion.div>
   );
 };

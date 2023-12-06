@@ -14,8 +14,10 @@
 
 .picture-container img {
   width: 195px;
+  width: 100%;
   height: auto;
-  transform: translateY(15px) scale(1);
+
+  /* transform: translateY(15px) scale(1); */
   transition: all 400ms ease;
 }
 
@@ -27,7 +29,7 @@
 
 .picture-container:hover img {
   filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.445));
-  transform: translateY(0) scale(1.52);
+  transform: translateY(20px) translateX(-80px) scale(1.52);
   transition: all 400ms ease;
 }
 @media screen and (max-width: 400px){

@@ -1,8 +1,8 @@
 import { SiCss3, SiFramer, SiGooglechrome, SiHtml5, SiJavascript, SiNextui, SiReact, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
 import marvelApp from "../../assets/previews/marvelApp.webp";
 import menuNextPreview from "../../assets/previews/menuNextPreview.webp";
+import todoapp from "../../assets/previews/todoapp.png";
 import PortfolioPrwview from "../../assets/previews/PortfolioPreview.png";
-import RetroToDoPreview from "../../assets/previews/RetroToDo.png";
 import SpookyShopPreview from "../../assets/previews/SpookyShop.png";
 
 export const projectsData = [
@@ -37,18 +37,18 @@ export const projectsData = [
       "https://marvel-app-lenios.netlify.app/",
   },
   {
-    title: "",
+    title: "todoTS",
     description:
-      "",
+      "Un simple ToDoList hecho para practicar Typescript, podes agregar tareas, marcarlas como realizadas o eliminarlas. Cuenta con una opcion de filtrada para la visualizacion.",
     icons: [
       <SiCss3 key={crypto.randomUUID()} />,
       <SiReact key={crypto.randomUUID()} />,
       <SiVite key={crypto.randomUUID()} />,
-      <SiFramer key={crypto.randomUUID()} />,
+      <SiTypescript key={crypto.randomUUID()} />,
     ],
-    imagePath: '',
-    repository: "https://github.com/Gadd88/React-Retro-To-Do-App",
-    deploy: "https://retrotodoapp.vercel.app/",
+    imagePath: todoapp,
+    repository: "https://github.com/Gadd88/todo-type",
+    deploy: "https://nova-todo-ts.netlify.app/",
   },
   {
     title: "",
