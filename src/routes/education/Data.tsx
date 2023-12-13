@@ -1,7 +1,3 @@
-import EnglishCertificate from "../../assets/certificates/EnglishCertificate.png";
-import ITSupportCertificate from "../../assets/certificates/ITSupportEspecialistCertificate.png";
-import ONECertificate from "../../assets/certificates/ONECertificate.png";
-import UXUICertificate from "../../assets/certificates/UXUICertificate.png";
 
 export const educationData = [
   {
@@ -23,9 +19,9 @@ export const educationData = [
     place: "Codo a Codo 4.0",
     date: "07/2023 - 12/2023",
     certificateLink:
-      "https://www.coursera.org/account/accomplishments/specialization/certificate/YAPVP7AAUSJF",
+      "",
     certificateAvailible: true,
-    certificateImage: ITSupportCertificate,
+    certificateImage:''
   },
   {
     title: "Desarrollador Backend",
@@ -35,9 +31,9 @@ export const educationData = [
     place: "Universidad Nacional Tres de Febrero - Argentina Programa 4.0",
     date: "03/2022 - 10/2023",
     certificateLink:
-      "https://app.aluracursos.com/program/certificate/58d5d3bb-8953-449a-b523-87a0bdea60e0",
+      "",
     certificateAvailible: true,
-    certificateImage: ONECertificate,
+    certificateImage:''
   },
   {
     title: "Data Process MSSQLS",
@@ -47,21 +43,21 @@ export const educationData = [
     place: "Quales Group",
     date: "02/2023 - 05/2023",
     certificateLink:
-      "https://app.aluracursos.com/program/certificate/58d5d3bb-8953-449a-b523-87a0bdea60e0",
+      "",
     certificateAvailible: true,
-    certificateImage: ONECertificate,
+    certificateImage:''
   },
   {
     title: "Desarrollador Frontend",
     courseType: "Bootcamp",
     description:
       "Durante este bootcamp vimos tecnologias orientadas al desarrollo de interfaces de usuario, partiendo desde HTML y CSS5, hasta abarcar Javascript y posteriormente nos enfocamos en ReactJs.",
-    place: "_Lenioslab",
+    place: "Leniolab. -",
     date: "03/2023 - 07/2023",
     certificateLink:
-      "https://app.aluracursos.com/program/certificate/58d5d3bb-8953-449a-b523-87a0bdea60e0",
+      "",
     certificateAvailible: true,
-    certificateImage: ONECertificate,
+    certificateImage:''
   },
   {
     title: "Desarrollador FullStack Python",
@@ -71,8 +67,8 @@ export const educationData = [
     place: "Codo a Codo 4.0",
     date: "07/2022 - 11/2022",
     certificateLink:
-      "https://app.aluracursos.com/program/certificate/58d5d3bb-8953-449a-b523-87a0bdea60e0",
+      "",
     certificateAvailible: true,
-    certificateImage: ONECertificate,
+    certificateImage: ''
   },
 ];
