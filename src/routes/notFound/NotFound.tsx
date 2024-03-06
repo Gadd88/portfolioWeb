@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BiMessageSquareError } from "react-icons/bi";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./NotFound.css";
 
 export const NotFound = () => {
@@ -27,8 +27,8 @@ export const NotFound = () => {
         <BiMessageSquareError />
         Wrong URL
       </h1>
-      <h2 className="subheading">The page you're looking for doesn't exist.</h2>
-      <p>Redirecting to home page in... {seconds} seconds</p>
+      <h2 className="subheading">La página que buscas no está disponible.</h2>
+      <p>No te preocupes, te estoy redirigiendo al Inicio en... {seconds} segundos</p>
     </div>
   );
 };
