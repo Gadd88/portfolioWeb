@@ -1,13 +1,27 @@
-import { SiCss3, SiFirebase, SiFramer, SiGooglechrome, SiHtml5, SiJavascript, SiNextui, SiReact, SiSwiper, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
-import marvelApp from "../../assets/previews/marvelApp.webp";
-import menuNextPreview from "../../assets/previews/menuNextPreview.webp";
-import todoapp from "../../assets/previews/todoapp.png";
-import novaflix from "../../assets/previews/novaflix.png";
-
+import { SiCss3, SiFirebase, SiFramer, SiJsonwebtokens, SiMongodb, SiNextui, SiNodedotjs, SiReact, SiReactrouter, SiSwiper, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
+import {marvelApp, menuOnline, todoapp, novaflix, petpal} from '../../assets/previews/'
 
 export const projectsData = [
   {
-    title: "Tu Menú Web",
+    title: "Petpal",
+    description:
+      "Proyecto resultado de una simulación laboral en No Country, donde formé parte del equipo Frontend. Desarrollamos un portal para usuarios donde pueden registrar sus mascotas y datos de contacto, dar avisos de extravíos y otros datos, y, por cada una, recibe un código QR con el enlace al perfil con estos datos, facilitando la posibilidad de compartirlo, dada la necesidad.",
+    icons: [
+      <SiCss3 key={crypto.randomUUID()} />,
+      <SiTailwindcss key={crypto.randomUUID()} />,
+      <SiReact key={crypto.randomUUID()} />,
+      <SiVite key={crypto.randomUUID()} />,
+      <SiNodedotjs key={crypto.randomUUID()} />,
+      <SiJsonwebtokens key={crypto.randomUUID()} />,
+      <SiReactrouter key={crypto.randomUUID()} />,
+      <SiMongodb key={crypto.randomUUID()} />,
+    ],
+    imagePath: petpal,
+    repository: "https://github.com/Gadd88/noCountry-PetPal",
+    deploy: "https://c16-17-t-node-react.web.app/",
+  },
+  {
+    title: "menúOnline",
     description:
       "Proyecto freelance desarrollado en reactjs utilizando la libreria NextUI para darle una mejor apariencia visual. Gracias a una libreria que funciona como parseador de datos, se puede utilizar una simple hoja de Google Sheet para agregar, modificiar o eliminar algun producto de la web y tenerla actualizada practicamente al instante.",
     icons: [
@@ -17,7 +31,7 @@ export const projectsData = [
       <SiNextui key={crypto.randomUUID()} />,
       <SiTailwindcss key={crypto.randomUUID()} />,
     ],
-    imagePath: menuNextPreview,
+    imagePath: menuOnline,
     repository: "https://github.com/Gadd88/menuOnline",
     deploy: "https://tunegocionext.netlify.app/",
   },
@@ -66,19 +80,4 @@ export const projectsData = [
     deploy: "https://qa-pelis-seven.vercel.app/",
   },
 
-  {
-    title: "",
-    description:
-      "",
-    icons: [
-      <SiCss3 key={crypto.randomUUID()} />,
-      <SiTypescript key={crypto.randomUUID()} />,
-      <SiReact key={crypto.randomUUID()} />,
-      <SiVite key={crypto.randomUUID()} />,
-      <SiFramer key={crypto.randomUUID()} />,
-    ],
-    imagePath: '',
-    repository: "https://github.com/Gadd88/MyPortfolio",
-    deploy: "https://Gadd88.vercel.app/",
-  },
 ];

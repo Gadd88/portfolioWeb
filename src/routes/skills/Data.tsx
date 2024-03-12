@@ -124,18 +124,6 @@ export const backendData = [
     mainColor: "var(--accent-light)",
     ligthColor: "var(--accent)",
   },
-  // {
-  //   icon: [<SiCanva key={crypto.randomUUID()} />],
-  //   name: "Canva",
-  //   mainColor: "var(--ligth-main)",
-  //   ligthColor: "var(--clear-ligth)",
-  // },
-  // {
-  //   icon: [<SiFigma key={crypto.randomUUID()} />],
-  //   name: "Figma",
-  //   mainColor: "var(--clear-light)",
-  //   ligthColor: "var(--accent)",
-  // },
   {
     icon: [<GrMysql key={crypto.randomUUID()} />],
     name: "MySQL",
