@@ -21,6 +21,7 @@ import {
   SiTailwindcss,
   SiTrello,
   SiTypescript,
+  SiNextdotjs,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
@@ -74,8 +75,8 @@ export const frontEndData = [
     ligthColor: "var(--clear-dark)",
   },
   {
-    icon: [<SiChakraui key={crypto.randomUUID()} />],
-    name: "Chakra UI",
+    icon: [<SiNextdotjs key={crypto.randomUUID()} />],
+    name: "NextJs",
     mainColor: "var(--accent-light)",
     ligthColor: "var(--accent)",
   },

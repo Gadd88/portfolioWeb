@@ -27,7 +27,7 @@ export const AboutMe = () => {
       </div> */}
       <main className="aboutme-body">
         <p>
-          ¡Hola! Soy un desarrollador web enfocado en la creación de interfaces cautivadoras, siempre orientado a simplificar y facilitar la experiencia del usuario.
+          ¡Hola! Soy un  desarrollador web enfocado en la creación de interfaces cautivadoras, siempre orientado a simplificar y facilitar la experiencia del usuario.
           {/* Hello and welcome! I’m a passionate web developer with a strong focus on frontend design! Always trying to  
           craft visually delightful and easy-to-use interfaces. */}
         </p>

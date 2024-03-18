@@ -4,7 +4,7 @@ import "./AboutMeContainer.css";
 import { Button } from "../button/Button";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { AiOutlineMail } from "react-icons/ai";
-import CVDev from '../../assets/curriculum/CVDev.pdf'
+import CVDev from '../../assets/curriculum/CV-MatiasSaade.pdf'
 
 type AboutMeProps = {
   body: React.ReactNode;

@@ -6,7 +6,7 @@ export const educationData = [
     description:
       "A lo largo de mi carrera, he construido sólidas bases desde conceptos fundamentales hasta aplicaciones avanzadas. He explorado áreas como programación, sistemas de base de datos y redes informáticas. Estoy entusiasmado por contribuir al mundo dinámico de la informática a medida que avanzo hacia la graduación.",
     place: "Instituto Superior de Informática Virasoro",
-    date: "07/2019 - Presente",
+    date: "07/2019 - 03/2024",
     certificateLink: "#",
     certificateAvailible: false,
     certificateImage: "",
