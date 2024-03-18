@@ -19,7 +19,7 @@ export const Footer = () => {
         </span>
       </div>
       <div className="update-info">
-        <p>Última actualización: 24/11/2023</p>
+        <p>Última actualización: 12/03/2024</p>
       </div>
     </footer>
   );
