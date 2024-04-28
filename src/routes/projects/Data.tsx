@@ -1,7 +1,25 @@
 import { SiCss3, SiFirebase, SiFramer, SiJsonwebtokens, SiMongodb, SiNextui, SiNodedotjs, SiReact, SiReactrouter, SiSwiper, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
-import {marvelApp, menuOnline, todoapp, novaflix, petpal} from '../../assets/previews/'
+import {marvelApp, menuOnline, todoapp, novaflix, petpal, futbolarena} from '../../assets/previews/'
 
 export const projectsData = [
+  {
+    title: "Futbol Arena",
+    description:
+      "Proyecto grupal realizado para finalización de Bootcamp en stack MERN, la webapp te permite, como usuario, realizar pedidos y reservas de canchas de futbol, y como administrador, crear canchas, gestionar usuarios, gestionar reservas y gestionar los productos del marketplace.",
+    icons: [
+      <SiCss3 key={crypto.randomUUID()} />,
+      <SiTailwindcss key={crypto.randomUUID()} />,
+      <SiReact key={crypto.randomUUID()} />,
+      <SiVite key={crypto.randomUUID()} />,
+      <SiNodedotjs key={crypto.randomUUID()} />,
+      <SiJsonwebtokens key={crypto.randomUUID()} />,
+      <SiReactrouter key={crypto.randomUUID()} />,
+      <SiMongodb key={crypto.randomUUID()} />,
+    ],
+    imagePath: futbolarena,
+    repository: "https://github.com/Gadd88/futbol-arena-front",
+    deploy: "https://futbol-arena.netlify.app/",
+  },
   {
     title: "Petpal",
     description:
